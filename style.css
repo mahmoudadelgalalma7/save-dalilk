@@ -1,5 +1,440 @@
-/*
-body {
-    display:none
+
+body *{
+    font-family:"Tajawal"!important;
 }
-*/
+
+body{
+ background-image: url;
+ background-size:cover;
+}
+.site-header{
+  border-bottom-right-radius:25px!important;
+  border-bottom-left-radius:25px!important;
+   z-index: 100;
+   background: linear-gradient(45deg, #026ec7, transparent);
+    
+}
+.logo img {
+    width: auto;
+    height: 60px;
+    background-color: #000000 db;
+    color: white;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    /*animation: pulse 2.75s infinite cubic-bezier(0.66, 0, 0, 1);*/
+    border: 1px solid #0c0998;
+    border-radius:30%;
+    
+     width: auto;
+    height: 70px;
+}
+
+
+.sub-nav {
+    width: 100%;
+    z-index: 1000;
+    background:#3c87fc e;
+}
+.sub-nav-header {
+    background-color: #fff0!important;
+}
+
+
+@media (max-width: 991px){
+.sub-nav .sub-nav-content {
+   
+    background: #fff;
+
+
+}}
+
+
+.breadcrumb>.active{
+        color:#ffffff;
+}
+ol.breadcrumb li:before{
+     color:#ffffff !important;
+}
+.sub-nav__menu ml-2 a{
+    fill:#fff!important;
+}
+.circle-action {
+    color:#00000;
+    border: 1px solid #87ceeb!important;
+    border-radius:10px!important;
+    background:#87ceeb!important;
+}
+
+
+.circle-action:hover {
+    
+}
+.sub-nav a{
+    color:#3c87fc;
+    
+}
+
+
+.sub-nav {
+    text-align: center;
+    border-top: 1px solid #fff0;
+}
+
+.main-slider img{
+    margin-top:5px!important;
+     border-radius:10px!important;
+}
+
+
+.main-slider.slick-dotted.slick-slider .slick-dots li button {
+    width: 10px;
+    height: 2px;
+}
+ .section-header h2.section--title span{
+        border-bottom: solid 2px #ffffff;
+}
+ .section-header .section--title {
+
+          background-color:#fff0!important;
+ }
+ 
+ 
+ 
+ .section-header:before {
+    
+    background-color: #fff0;
+}
+.section-actions {
+   
+    background: #ffffff 08;
+}
+.product {
+    font-family: dinnextltarabic-regular!important;
+    border-radius:40px!important;
+    border: 3px solid #0f3772;
+    padding-bottom:25px!important;
+    padding-right:5.5px!important;
+    padding-left:5.5px!important;
+    padding-top:5.5px;
+}
+
+
+.product img {
+border-radius:27px;
+
+    background-color:#fff;
+}
+
+
+
+    
+.product-title {
+    color:#0f3772;
+    text-align: center!important;
+     font-weight:900;
+}
+.product-details__title{
+    text-align: center!important;
+     font-weight:700;
+}
+.product-price{
+      color:#00000;
+}
+
+
+.product .product-footer {display:block !important;}
+    .product-add {
+    font-size: 18px;
+    background-color:#0f3772;
+    color: #fff;
+     font-weight:50;
+    margin-top: 0.25rem !important;
+    margin-right:5px!important;
+    display: block;
+    text-align: center;
+    width: 95%;
+   align-items:center;
+    border-radius:10px;
+    line-height: 1.5rem;
+   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    /*animation: pulse 2.75s infinite cubic-bezier(0.66, 0, 0, 1);*/
+
+    padding-bottom:10px!important;
+    padding-right:5.5px!important;
+    padding-left:5.5px!important;
+}
+
+
+.product-add * {
+    display: none;
+}
+ .product-add:hover{
+     transform:scale(1.04);
+
+ }
+ .add-cart-large{
+        background-color:#0f3772;
+        border-radius:45px!important;
+ }
+ 
+  .add-cart-large:hover{
+           transform:scale(1.04);
+
+}
+.list--product-fields li.form-group--price {
+    align-items: center;
+    padding-top: 20px;
+    border-top: 3px solid #0000;
+}
+
+
+section[style="background: #FAFAFA;"]:first-of-type{
+         background-color: #ffffff !important;
+  
+ }
+ .product-details__title{
+     color:#0f3772!important;
+ }
+ .product-form {
+    padding: 1rem;
+    background: #0f3772;
+    border: 1px solid #0f3772!important;
+    border-radius:20px;
+ }
+ 
+ .list--tags li a {
+       background-color:#00000;
+       color:#00000!important;
+
+}
+.sub-nav-header{
+    background-color:#00000;
+    
+}
+.sub-nav-header img {
+    display:none!important;
+}
+.sub-nav-header img {
+    content: url(https://cdn.salla.sa/gPQXz/ymUMdXRKeKV7sFT7koFGtbWxOnyUtLDIvpOtxIys.png)!important;
+    width: 95px !important;
+    height: auto;
+    border-radius: 0 !important;
+    border: none !important;
+}
+.sub-nav-header::before {
+    content: "";
+    text-align: center !important;
+    display: block;
+    height: 85px !important;
+    background-image: url(https://cdn.salla.sa/gPQXz/ymUMdXRKeKV7sFT7koFGtbWxOnyUtLDIvpOtxIys.png);
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
+    /*animation: pulse 2.75s infinite cubic-bezier(0.66, 0, 0, 1);*/
+    border: 1px solid #0f3772;
+    color:#0f3772!important;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span {
+  
+    border-top: 5px solid #0f3772;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span{
+         color:#0f3772!important;
+}
+.sub-nav .main-menu li.sub-menu-header.categories-holder>span i{
+     color:#0f3772!important;
+     font-size:25px;
+}
+
+
+.product-add:before {
+    content: 'أضف للسلة';
+    display: block;
+}
+
+
+.sub-nav-header a{
+ background-color:#0f3772;
+ color:#fff!important; 
+ padding: 0 25px 10px;
+}
+.sub-nav-header a:hover{
+         transform:scale(1.04);
+}
+.section--title{
+   font-size:50px!important;
+    font-weight:700;
+    color:#0f3772;   
+}
+
+
+.u-light {
+    background-color: #ffffff;
+}
+
+.feature-item__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    text-align:center;
+    gap:5px;
+    background-color: #348bd2;
+    padding: 20px;
+    border-radius: 20px;
+}
+.feature-item__icon {
+    color:#000 !important;   
+    border-radius: 50%!important;
+    background-color:#FFF;
+}
+.feature-item h3{
+    font-size:23px!important;
+    font-weight:800;
+    color:#222;
+}
+.feature-item p{
+    color:#FFF;
+    
+}
+
+@media only screen and (max-width: 991px){
+.feature-item {
+    width: 100%;
+}}
+
+
+.footer-main {
+    background-color: rgba(2, 110, 199,.8) !important;
+    border-top-left-radius: 100px !important;
+    border-bottom-right-radius:100px !important;
+    border-top-right-radius:15px !important;
+    border-bottom-left-radius:15px !important;
+    
+}
+.footer-main *{
+    text-align:center!important;
+}
+
+
+.store-contact a{
+     background-color:#ffffff;
+     color:#00000;
+     padding:5px;
+     border-radius:5px;
+     font-weight:700;
+}
+
+
+.social__item a{
+    
+    background-color:#ffffff;
+     color:#00000;
+     padding:5px;
+     border-radius:15px;
+     box-shadow: 2.5px 2.5px 5px #000000, -2.5px -2.5px 5px #db5b860d;
+     border:none!important;
+}
+
+.footer-title span{
+    font-size:28px!important;
+    font-weight:700;
+    
+}
+.footer-links a{
+     font-size:18px!important;
+     color:#FFF !important;
+   
+}
+.footer-item p{
+    font-size:20px!important;
+    color:#FFF !important;
+}
+icon-object.border-yellow-dark.text-yellow-dark {
+    border: none;
+    border-radius: 0;
+  background-image: url(https://i.postimg.cc/SRB1svgS/la1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.icon-object>i{
+display:none!important
+}
+.login-title {
+     color:#ffffff!important;
+}
+.text-muted{
+        color:#ffffff;
+}
+.product-detials__desc{
+    padding-top:10px;
+    border:1px solid #0f3772!important;
+    border-radius:25px!important;
+    color:#0f3772!important;
+}
+ .product-detials__desc p{
+        color:#0f3772!important;
+        font-weight:700;
+        text-align:center!important;
+}
+body.product-showwithslug .a2a_svg > svg > path{
+    fill:#026ec7!important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 2px;
+}
+.icon-object>i{
+display:none!important
+}
+.login-title {
+     color:#026ec7!important;
+}
+.text-muted{
+        color:#026ec7;
+}
+
+.product-cart {
+   border:none;
+    background: #ffffff;
+    border-radius: 40px;
+}
+.cart-total-box{
+   border:none;
+    background: #ffffff;
+    border-radius: 40px;
+}  
+.product-options{
+      background: #ffffff;
+  
+}
+.list--product-fields li.form-group>label,
+.list--product-fields li.form-group--price>div .product-price{
+    color:#FFF !important;
+}
+
+section.section {
+    padding:0 !important;
+}
+.section-header.mb-4 {
+    align-items:center;
+}
+
+ul.main-menu li {
+    padding:0px 20px;
+    background-color:#eee;
+    border-radius:15px;
+    border:1px solid #DDD;
+}
+ul.main-menu li:hover{
+    background-color:#FFF;
+    border:1px solid #111;
+}
+ul.main-menu li:hover a {
+    color:#026ec7;
+}
+
+ul.main-menu li a {
+    color:#000;
+}
