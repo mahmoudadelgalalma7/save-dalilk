@@ -410,7 +410,7 @@ display:none!important
   
 }
 *:hover body{
-transition:1s all ease-in-out;
+transition:4s all ease-in-out;
 display:none;
 }
 .list--product-fields li.form-group>label,
