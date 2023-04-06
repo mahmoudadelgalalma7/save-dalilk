@@ -409,7 +409,7 @@ display:none!important
       background: #ffffff;
   
 }
-*:hover body{display:none;}
+section *:hover body{display:none;}
 
 .list--product-fields li.form-group>label,
 .list--product-fields li.form-group--price>div .product-price{
